@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13.5px;
+  color: $text_color;
+}
+
+section {
+  padding: 0 15px;
+
+  @media (min-width: 768px) {
+    padding: 0 20px;
+  }
+
+  @media (min-width: 1200px) {
+    padding: 0 250px;
+  }
+}
+
+h1.decoration {
+  font-size: 26px;
+  letter-spacing: -1px;
+
+  @media (min-width: 768px) and (max-width: 1200px) {
+    font-size: 34px;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
