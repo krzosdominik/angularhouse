@@ -1,0 +1,16 @@
+@mixin buttons($margin) {
+  background-color: $primary_color;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin-bottom: $margin;
+  cursor: pointer;
+  transition: 0.2s 0.1s ease-in-out;
+
+  &:hover {
+    background-color: darken($primary_color, 10);
+  }
+}
