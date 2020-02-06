@@ -83,6 +83,53 @@
             </div>
         </section>
 
+        <section class="contact">
+            <h1 class="contact__header decoration">Write Us</h1>
+            <div class="contact__container">
+                <h3 class="contact__container__header">Potrzebujesz pomocy z
+                    projektem?</h3>
+                <p class="contact__container__description">
+                    Napisz do nas, jesteśmy profesjonalistami w temacie
+                    programowania, consultingu i audytu IT.
+                </p>
+                <form class="contact__form">
+                    <label for="name">Imię i nazwisko</label>
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Jan Kowalski"
+                        />
+                    <label for="email">Adres e-mail</label>
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="jan.kowalski@mojafirma.pl"
+                        />
+                    <label for="phone">Numer telefonu</label>
+                    <input
+                        type="tel"
+                        id="phone"
+                        placeholder="+48 285 285 687"
+                        />
+                    <label for="theme">Temat</label>
+                    <select name="theme" id="theme">
+                        <option value="consulting">Consulting</option>
+                        <option value="programowanie">Programowanie</option>
+                        <option value="audyt">Audyt</option>
+                    </select>
+                    <label for="message">Treść</label>
+                    <textarea rows="4" id="message"
+                        placeholder="Tutaj wpisz treść wiadomości..."></textarea>
+                    <label for="rodo" class="form__rodo">
+                        <input checked type="checkbox" id="rodo">
+                        Wysyłając wiadomość zgadzasz się na przekazanie nam
+                        Twoich danych osobowych
+                    </label>
+                    <button type="submit" class="form__button">Wyślij</button>
+                </form>
+            </div>
+        </section>
+
         <script src="./js/toggle_navigation.js"></script>
 
     </body>
