@@ -1,0 +1,123 @@
+.partners {
+  text-align: center;
+  display: none;
+  padding-top: 45px;
+
+  @media (min-width: 1200px) {
+    display: block;
+  }
+}
+
+.partners__header {
+  margin-bottom: 40px;
+}
+
+.partners__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  border: 0.5px solid $border_color;
+}
+
+.partners__partner {
+  display: block;
+  margin: 0;
+  border: 0.5px solid $border_color;
+  height: 125px;
+  transition: 0.5s 0.1s ease-in;
+
+  &:hover {
+    background-color: lighten($border_color, 5);
+    z-index: 2;
+    transform: scale(1.2);
+  }
+}
+
+@mixin background {
+  background-size: 70%;
+  background-position: center center;
+
+  @media (min-width: 1800px) {
+    background-size: contain;
+  }
+}
+
+.partner__cocacola {
+  background: no-repeat url("../../images/cocacola.png");
+  @include background;
+}
+
+.partner__amazon {
+  background: no-repeat url("../../images/amazon.png");
+  @include background;
+}
+
+.partner__adidas {
+  background: no-repeat url("../../images/adidas.png");
+  @include background;
+}
+
+.partner__companyname {
+  background: no-repeat url("../../images/companyname.png");
+  @include background;
+}
+
+.partner__nvidia {
+  background: no-repeat url("../../images/nvidia.png");
+  @include background;
+}
+
+.partner__drupal {
+  background: no-repeat url("../../images/drupal.png");
+  @include background;
+}
+
+.partner__cerner {
+  background: no-repeat url("../../images/cerner.png");
+  @include background;
+}
+
+.partner__premierleague {
+  background: no-repeat url("../../images/premierleague.png");
+  @include background;
+}
+
+.partner__rolex {
+  background: no-repeat url("../../images/rolex.png");
+  @include background;
+}
+
+.partner__fakro {
+  background: no-repeat url("../../images/fakro.png");
+  @include background;
+}
+
+.partner__mobil {
+  background: no-repeat url("../../images/mobil.png");
+  @include background;
+}
+
+.partner__twilio {
+  background: no-repeat url("../../images/twilio.png");
+  @include background;
+}
+
+.partner__lg {
+  background: no-repeat url("../../images/lg.png");
+  @include background;
+}
+
+.partner__google {
+  background: no-repeat url("../../images/google.png");
+  @include background;
+}
+
+.partner__canon {
+  background: no-repeat url("../../images/canon.png");
+  @include background;
+}
+
+.partner__skype {
+  background: no-repeat url("../../images/skype.png");
+  @include background;
+}
