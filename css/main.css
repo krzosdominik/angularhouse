@@ -639,7 +639,7 @@ a {
 
 .jumbotron {
   color: #fff;
-  background-image: url("../../images/phone_banner_photo.png");
+  background-image: url("../images/phone_banner_photo.png");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 300px;
@@ -653,14 +653,14 @@ a {
 
 @media (min-width: 768px) {
   .jumbotron {
-    background-image: url("../../images/tablet_banner_photo.png");
+    background-image: url("../images/tablet_banner_photo.png");
     height: 480px;
   }
 }
 
 @media (min-width: 1200px) {
   .jumbotron {
-    background-image: url("../../images/desktop_banner_photo.png");
+    background-image: url("../images/desktop_banner_photo.png");
     height: 420px;
   }
 }
@@ -770,7 +770,7 @@ a {
 .passions__passion::after {
   content: "";
   display: block;
-  background: no-repeat url("../../images/Pattern_horizontal.png");
+  background: no-repeat url("../images/Pattern_horizontal.png");
   background-size: 300px;
   background-position: -60px -62px;
   z-index: -1;
@@ -844,7 +844,7 @@ a {
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
-  content: url("../../images/icon_development.svg");
+  content: url("../images/icon_development.svg");
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
@@ -867,7 +867,7 @@ a {
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
-  content: url("../../images/icon_audyt.png");
+  content: url("../images/icon_audyt.png");
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
@@ -890,7 +890,7 @@ a {
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
-  content: url("../../images/icon_consulting.png");
+  content: url("../images/icon_consulting.png");
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
@@ -1178,7 +1178,7 @@ label.form__rodo input:checked:before {
 }
 
 .partner__cocacola {
-  background: no-repeat url("../../images/cocacola.png");
+  background: no-repeat url("../images/cocacola.png");
   background-size: 70%;
   background-position: center center;
 }
@@ -1190,7 +1190,7 @@ label.form__rodo input:checked:before {
 }
 
 .partner__amazon {
-  background: no-repeat url("../../images/amazon.png");
+  background: no-repeat url("../images/amazon.png");
   background-size: 70%;
   background-position: center center;
 }
@@ -1202,7 +1202,7 @@ label.form__rodo input:checked:before {
 }
 
 .partner__adidas {
-  background: no-repeat url("../../images/adidas.png");
+  background: no-repeat url("../images/adidas.png");
   background-size: 70%;
   background-position: center center;
 }
@@ -1214,7 +1214,7 @@ label.form__rodo input:checked:before {
 }
 
 .partner__companyname {
-  background: no-repeat url("../../images/companyname.png");
+  background: no-repeat url("../images/companyname.png");
   background-size: 70%;
   background-position: center center;
 }
@@ -1226,7 +1226,7 @@ label.form__rodo input:checked:before {
 }
 
 .partner__nvidia {
-  background: no-repeat url("../../images/nvidia.png");
+  background: no-repeat url("../images/nvidia.png");
   background-size: 70%;
   background-position: center center;
 }
@@ -1238,7 +1238,7 @@ label.form__rodo input:checked:before {
 }
 
 .partner__drupal {
-  background: no-repeat url("../../images/drupal.png");
+  background: no-repeat url("../images/drupal.png");
   background-size: 70%;
   background-position: center center;
 }
@@ -1250,7 +1250,7 @@ label.form__rodo input:checked:before {
 }
 
 .partner__cerner {
-  background: no-repeat url("../../images/cerner.png");
+  background: no-repeat url("../images/cerner.png");
   background-size: 70%;
   background-position: center center;
 }
@@ -1262,7 +1262,7 @@ label.form__rodo input:checked:before {
 }
 
 .partner__premierleague {
-  background: no-repeat url("../../images/premierleague.png");
+  background: no-repeat url("../images/premierleague.png");
   background-size: 70%;
   background-position: center center;
 }
@@ -1274,7 +1274,7 @@ label.form__rodo input:checked:before {
 }
 
 .partner__rolex {
-  background: no-repeat url("../../images/rolex.png");
+  background: no-repeat url("../images/rolex.png");
   background-size: 70%;
   background-position: center center;
 }
@@ -1286,7 +1286,7 @@ label.form__rodo input:checked:before {
 }
 
 .partner__fakro {
-  background: no-repeat url("../../images/fakro.png");
+  background: no-repeat url("../images/fakro.png");
   background-size: 70%;
   background-position: center center;
 }
@@ -1298,7 +1298,7 @@ label.form__rodo input:checked:before {
 }
 
 .partner__mobil {
-  background: no-repeat url("../../images/mobil.png");
+  background: no-repeat url("../images/mobil.png");
   background-size: 70%;
   background-position: center center;
 }
@@ -1310,7 +1310,7 @@ label.form__rodo input:checked:before {
 }
 
 .partner__twilio {
-  background: no-repeat url("../../images/twilio.png");
+  background: no-repeat url("../images/twilio.png");
   background-size: 70%;
   background-position: center center;
 }
@@ -1322,7 +1322,7 @@ label.form__rodo input:checked:before {
 }
 
 .partner__lg {
-  background: no-repeat url("../../images/lg.png");
+  background: no-repeat url("../images/lg.png");
   background-size: 70%;
   background-position: center center;
 }
@@ -1334,7 +1334,7 @@ label.form__rodo input:checked:before {
 }
 
 .partner__google {
-  background: no-repeat url("../../images/google.png");
+  background: no-repeat url("../images/google.png");
   background-size: 70%;
   background-position: center center;
 }
@@ -1346,7 +1346,7 @@ label.form__rodo input:checked:before {
 }
 
 .partner__canon {
-  background: no-repeat url("../../images/canon.png");
+  background: no-repeat url("../images/canon.png");
   background-size: 70%;
   background-position: center center;
 }
@@ -1358,7 +1358,7 @@ label.form__rodo input:checked:before {
 }
 
 .partner__skype {
-  background: no-repeat url("../../images/skype.png");
+  background: no-repeat url("../images/skype.png");
   background-size: 70%;
   background-position: center center;
 }
